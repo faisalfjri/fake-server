@@ -3,7 +3,7 @@
         {
             "id": "02a3c76ffe148e9bf4c07d813bdba98e",
             "clone_id": null,
-            "nama_surat": "Surat Izin",
+            "nama_surat": "Surat izin tidak masuk kerja",
             "deskripsi": "Contoh Surat Izin",
             "file": "1664100188_85f814b24793b6364b52.docx",
             "created_by": 1,
@@ -48,7 +48,7 @@
         {
             "id": "09ba6848ff92875ea39414e81049e64e",
             "clone_id": null,
-            "nama_surat": "Surat Izin",
+            "nama_surat": "Surat Lamaran Pekerjaan (SLP)",
             "deskripsi": "Contoh Surat Izin",
             "file": "1664098760_f41a2c90ca2ed90fed3c.docx",
             "created_by": 1,
