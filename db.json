@@ -1,1 +1,103 @@
-{ "surat": { "nama_surat": "Surat Izin", "deskripsi": "Surat izin korporate BRI" }, "fields": [ { "field": "lokasi_diterbitkan", "urut": 1, "field_id": "1", "label": "Lokasi Diterbitkan", "palceholder": "Masukkan Lokasi", "keterangan": "Lokasi tempat anda berkunjung", "type": "text", "value": "" }, { "field": "tanggal_diterbitkan", "urut": 2, "field_id": "2", "label": "Tanggal Diterbitkan", "palceholder": "Pilih Tanggal", "keterangan": "Tanggal setelah mendapatkan izin", "type": "date", "value": "" }, { "field": "penerima_surat", "urut": 3, "field_id": "3", "label": "Penerima Surat", "palceholder": "Masukkan Nama Penerima", "keterangan": "Nama atasan anda sesuai struktur", "type": "text", "value": "" }, { "field": "nama_lengkap", "urut": 4, "field_id": "4", "label": "Nama lengkap", "palceholder": "Masukkan Nama Lengkap", "keterangan": "Nama lengkap dan gelar", "type": "text", "value": "" }, { "field": "jabatan", "urut": 5, "field_id": "5", "label": "Jabatan", "palceholder": "Pilih Nama jabatan", "keterangan": "Jabatan yang tersedia", "type": "select", "value": [ "Head Office", "Manager", "Leader" ] }, { "field": "alamat", "urut": 6, "field_id": "6", "label": "Alamat", "palceholder": "Masukkan Alamat", "keterangan": "Alamat domisili saat ini", "type": "textarea", "value": "" }, { "field": "mulai_tanggal", "urut": 7, "field_id": "7", "label": "Mulai Tanggal", "palceholder": "Pilih Tanggal", "keterangan": "Tanggal anda memulai izin", "type": "date", "value": "" }, { "field": "sampai_tanggal", "urut": 8, "field_id": "8", "label": "Sampai Tanggal", "palceholder": "Pilih Tanggal", "keterangan": "Tanggal usai izin", "type": "date", "value": "" }, { "field": "alasan_izin", "urut": 9, "field_id": "9", "label": "Alasan Izin", "palceholder": "Masukkan Alasan", "keterangan": "Alasan yang ingin anda ajukan", "type": "textarea", "value": "" } ] }
+{
+    "surat": [
+        {
+            "id": "02a3c76ffe148e9bf4c07d813bdba98e",
+            "clone_id": null,
+            "nama_surat": "Surat Izin",
+            "deskripsi": "Contoh Surat Izin",
+            "file": "1664100188_85f814b24793b6364b52.docx",
+            "created_by": 1,
+            "created_at": "2022-09-25 17:03:08",
+            "last_update": "2022-09-25 17:03:08",
+            "fields": [
+                {
+                    "id": "798bfbb053c0ae03fafff8389ad3baf2",
+                    "surat_id": "02a3c76ffe148e9bf4c07d813bdba98e",
+                    "order": "0",
+                    "field": "penerima_surat",
+                    "label": "",
+                    "placeholder": "",
+                    "keterangan": "",
+                    "type": "text",
+                    "value_type": ""
+                },
+                {
+                    "id": "c301b58a7ba131fab5529abe175c4a4c",
+                    "surat_id": "02a3c76ffe148e9bf4c07d813bdba98e",
+                    "order": "1",
+                    "field": "tanggal_diterbitkan",
+                    "label": "Tanggal Ajah",
+                    "placeholder": "Test",
+                    "keterangan": "Testd",
+                    "type": "text",
+                    "value_type": ""
+                },
+                {
+                    "id": "234e5dbc93f6f4553c50f2d567a84101",
+                    "surat_id": "02a3c76ffe148e9bf4c07d813bdba98e",
+                    "order": "2",
+                    "field": "nama_lengkap",
+                    "label": "Nama Kamuh",
+                    "placeholder": "Test 2",
+                    "keterangan": "",
+                    "type": "text",
+                    "value_type": ""
+                }
+            ]
+        },
+        {
+            "id": "09ba6848ff92875ea39414e81049e64e",
+            "clone_id": null,
+            "nama_surat": "Surat Izin",
+            "deskripsi": "Contoh Surat Izin",
+            "file": "1664098760_f41a2c90ca2ed90fed3c.docx",
+            "created_by": 1,
+            "created_at": "2022-09-25 16:39:20",
+            "last_update": "2022-09-25 16:39:20",
+            "fields": [
+                {
+                    "id": "88af1201b20cf0d288e8dae0d987570c",
+                    "surat_id": "09ba6848ff92875ea39414e81049e64e",
+                    "order": "0",
+                    "field": "penerima_surat",
+                    "label": "",
+                    "placeholder": "",
+                    "keterangan": "",
+                    "type": "text",
+                    "value_type": ""
+                },
+                {
+                    "id": "86fed6548fce0263ec915783a4b589a6",
+                    "surat_id": "09ba6848ff92875ea39414e81049e64e",
+                    "order": "1",
+                    "field": "tanggal_diterbitkan",
+                    "label": "Tanggal Ajah",
+                    "placeholder": "Test",
+                    "keterangan": "Testd",
+                    "type": "text",
+                    "value_type": ""
+                },
+                {
+                    "id": "fff9a106b465b76e87a623c68a86c0db",
+                    "surat_id": "09ba6848ff92875ea39414e81049e64e",
+                    "order": "2",
+                    "field": "nama_lengkap",
+                    "label": "Nama Kamuh",
+                    "placeholder": "Test 2",
+                    "keterangan": "",
+                    "type": "text",
+                    "value_type": ""
+                }
+            ]
+        }
+    ],
+    "user": [
+        {
+            "id": 1,
+            "fullname": "Faisal Fajri",
+            "username": "faisalfjri",
+            "email": "faisalfjrii@gmail.com",
+            "auth": true
+        }
+    ]
+}
